@@ -1,0 +1,37 @@
+{
+  "name": "List name.",
+  "description": "List description",
+  "sources": [
+    {
+      "source": "https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/data/KADhosts/hosts"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Spam/hosts"
+    },
+    {
+      "source": "https://v.firebog.net/hosts/static/w3kbl.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.2o7Net/hosts"
+    },
+    {
+      "source": "https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt"
+    },
+    {
+      "source": "https://v.firebog.net/hosts/Shalla-mal.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Risk/hosts"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt"
+    },
+	{
+      "source": "https://pgl.yoyo.org/adservers/admiral-domains.txt"
+    }
+  ],
+  "transformations": ["Deduplicate", "Compress", "RemoveComments", "Validate"]
+}

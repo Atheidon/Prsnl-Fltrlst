@@ -1,0 +1,33 @@
+{
+  "name": "List name.",
+  "description": "List description",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/fake-googlebots.list"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt"
+    },
+
+    {
+      "source": "https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/filters.txt"
+    },
+    {
+      "source": "https://winhelp2002.mvps.org/hosts.txt"
+    },
+    {
+      "source": "https://abp.oisd.nl/"
+    },
+    {
+      "source": "https://curben.gitlab.io/malware-filter/urlhaus-filter-hosts.txt"
+    },
+
+    {
+      "source": "https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_adblocker"
+    },
+	{
+      "source": "https://raw.githubusercontent.com/Licolnlee/AdBlockList/master/AdBlock"
+    }
+  ],
+  "transformations": ["Deduplicate", "Compress", "RemoveComments", "Validate"]
+}

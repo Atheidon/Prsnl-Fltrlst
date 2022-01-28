@@ -1,0 +1,37 @@
+{
+  "name": "List name.",
+  "description": "List description",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt"
+    },
+    {
+      "source": "https://kriskintel.com/feeds/ktip_malicious_domains.txt"
+    },
+    {
+      "source": "https://rescure.me/rescure_domain_blacklist.txt"
+    },
+    {
+      "source": "https://hole.cert.pl/domains/domains.txt"
+    },
+    {
+      "source": "http://vxvault.net/URL_List.php"
+    },
+    {
+      "source": "https://www.usom.gov.tr/url-list.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/hpthreatresearch/iocs/main/TA551/domains.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/guardicore/labs_campaigns/master/Autodiscover/autodiscover-tlds.txt"
+    },
+	{
+      "source": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt"
+    }
+  ],
+  "transformations": ["Deduplicate", "Compress", "RemoveComments", "Validate"]
+}

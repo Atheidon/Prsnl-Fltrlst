@@ -1,0 +1,34 @@
+{
+  "name": "List name.",
+  "description": "List description",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Dawsey21/Lists/master/main-blacklist.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/vokins/yhosts/master/hosts"
+    },
+    {
+      "source": "https://winhelp2002.mvps.org/hosts.txt"
+    },
+    {
+      "source": "http://sysctl.org/cameleon/hosts"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/WindowsLies/BlockWindows/master/hostslist"
+    },
+    {
+      "source": "https://openphish.com/feed.txt"
+    },
+    {
+      "source": "https://block.energized.pro/ultimate/formats/hosts.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Dawsey21/Lists/master/adblock-list.txt"
+    }
+  ],
+  "transformations": ["Deduplicate", "Compress", "RemoveComments", "Validate"]
+}

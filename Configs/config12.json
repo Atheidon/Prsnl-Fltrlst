@@ -1,0 +1,37 @@
+{
+  "name": "List name.",
+  "description": "List description",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/Yhonay/antipopads/master/popads.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/tigthor/NSA-CIA-Blocklist/main/HOSTS/HOSTS"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/tigthor/NSA-CIA-Blocklist/main/HOSTS/Trackers/Canvas%20font%20fingerprinting.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/tigthor/NSA-CIA-Blocklist/main/HOSTS/Trackers/audio%20fingerprinting%20pages.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/tigthor/NSA-CIA-Blocklist/main/HOSTS/Trackers/canvas%20fingerprinting%20pages.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/tigthor/NSA-CIA-Blocklist/main/HOSTS/Trackers/trackers.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/tigthor/NSA-CIA-Blocklist/main/HOSTS/Trackers/webrtc%20tracking.txt"
+    },
+    {
+      "source": "https://reddestdream.github.io/Projects/MinimalHosts/etc/MinimalHostsBlocker/minimalhosts"
+    },
+    {
+      "source": "https://v.firebog.net/hosts/BillStearns.txt"
+    },
+	{
+      "source": "https://www.joewein.net/dl/bl/dom-bl-base.txt"
+    }
+  ],
+  "transformations": ["Deduplicate", "Compress", "RemoveComments", "Validate"]
+}

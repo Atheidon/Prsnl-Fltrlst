@@ -1,0 +1,37 @@
+{
+  "name": "List name.",
+  "description": "List description",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/windows"
+    },
+    {
+      "source": "https://joewein.net/dl/bl/dom-bl-base.txt"
+    },
+    {
+      "source": "https://joewein.net/dl/bl/dom-bl.txt"
+    },
+    {
+      "source": "https://bitbucket.org/ethanr/dns-blacklists/raw/master/bad_lists/Mandiant_APT1_Report_Appendix_D.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/malware/domains"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/phishing/domains"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/cbuijs/shallalist/master/spyware/domains"
+    },
+    {
+      "source": "https://www.botvrij.eu/data/ioclist.domain.raw"
+    },
+    {
+      "source": "https://www.botvrij.eu/data/ioclist.hostname.raw"
+    },
+	{
+      "source": "https://azorult-tracker.net/api/list/domain?format=plain"
+    }
+  ],
+  "transformations": ["Deduplicate", "Compress", "RemoveComments", "Validate"]
+}

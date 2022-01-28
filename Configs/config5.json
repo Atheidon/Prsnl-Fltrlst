@@ -1,0 +1,37 @@
+{
+  "name": "List name.",
+  "description": "List description",
+  "sources": [
+    {
+      "source": "https://www.i-dont-care-about-cookies.eu/abp/"
+    },
+    {
+      "source": "https://secure.fanboy.co.nz/r/fanboy-ultimate.txt"
+    },
+    {
+      "source": "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt"
+    },
+    {
+      "source": "https://easylist-downloads.adblockplus.org/easyprivacy.tpl"
+    },
+    {
+      "source": "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/What-Zit-Tooya/Ad-Block/main/Main-Blocklist/Ad-Block-Simplified.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/What-Zit-Tooya/Ad-Block/main/Main-Blocklist/Ad-Block-HOSTS.txt"
+    },
+    {
+      "source": "https://hosts.anudeep.me/mirror/adservers.txt"
+    },
+    {
+      "source": "https://hosts.anudeep.me/mirror/CoinMiner.txt"
+    },
+	{
+      "source": "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt"
+    }
+  ],
+  "transformations": ["Deduplicate", "Compress", "RemoveComments", "Validate"]
+}

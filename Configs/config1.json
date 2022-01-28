@@ -1,0 +1,37 @@
+{
+  "name": "Personal list, from many others.",
+  "description": "List description",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_8_Dutch/filter.txt"
+    },
+    {
+      "source": "https://adaway.org/hosts.txt"
+    },
+    {
+      "source": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
+    },
+    {
+      "source": "https://someonewhocares.org/hosts/zero/hosts"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt"
+    },
+    {
+      "source": "https://abp.oisd.nl/basic/"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt"
+    },
+    {
+      "source": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext"
+    }
+  ],
+  "transformations": ["Deduplicate", "Compress", "RemoveComments", "Validate"]
+}

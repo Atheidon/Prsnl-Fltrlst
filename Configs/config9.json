@@ -1,0 +1,35 @@
+{
+  "name": "List name.",
+  "description": "List description",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/MiscellaneousFactory/AdBlockList/master/hosts"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/ftpmorph/ftprivacy/master/blocklists/smart-tv-ads-tracking.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/ftpmorph/ftprivacy/master/blocklists/windows10-spying-erm-i-mean-telemetry-lol.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/ftpmorph/ftprivacy/master/blocklists/smartphone-ads-tracking.txt"
+    },
+
+    {
+      "source": "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_original_trackers.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/tiuxo/hosts/master/ads"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts"
+    },
+	{
+      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/apple"
+    }
+  ],
+  "transformations": ["Deduplicate", "Compress", "RemoveComments", "Validate"]
+}
