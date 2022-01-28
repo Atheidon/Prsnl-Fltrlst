@@ -1,0 +1,49 @@
+{
+  "name": "List name.",
+  "description": "List description",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/Atheidon/Prsnl-Fltrlst/main/Outputs/output1.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Atheidon/Prsnl-Fltrlst/main/Outputs/output2.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Atheidon/Prsnl-Fltrlst/main/Outputs/output3.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Atheidon/Prsnl-Fltrlst/main/Outputs/output4.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Atheidon/Prsnl-Fltrlst/main/Outputs/output5.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Atheidon/Prsnl-Fltrlst/main/Outputs/output6.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Atheidon/Prsnl-Fltrlst/main/Outputs/output7.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Atheidon/Prsnl-Fltrlst/main/Outputs/output8.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Atheidon/Prsnl-Fltrlst/main/Outputs/output9.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Atheidon/Prsnl-Fltrlst/main/Outputs/output10.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Atheidon/Prsnl-Fltrlst/main/Outputs/output11.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Atheidon/Prsnl-Fltrlst/main/Outputs/output12.txt"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/Atheidon/Prsnl-Fltrlst/main/Outputs/output13.txt"
+    },
+	{
+      "source": "https://raw.githubusercontent.com/Atheidon/Prsnl-Fltrlst/main/Outputs/output14.txt"
+    }
+  ],
+  "transformations": ["Deduplicate", "Compress", "RemoveComments", "Validate"]
+}
